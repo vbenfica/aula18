@@ -1,0 +1,42 @@
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image : url(fundoPets2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px;
+}
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: gray;
+            padding: 60px ;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid green;
+            border-radius: 3px;
+        }
+        input[type="limpar"],  {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        #voltar{
+            color:red;
+            text-align: center;
+            text-decoration-line: none;
+            
+        }
